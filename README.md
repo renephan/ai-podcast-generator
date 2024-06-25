@@ -40,11 +40,13 @@ export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
 ```
 
 ## Next Steps for PoC
-- Setup BaseClass
-- Setup pydantic config
-- Create SubClass for fixed contents
-- Create first easy prompt template to create podcast script
-- Integrate TTS-API of OpenAI
+- [x] Search very basic test data, e.g. paper, blog & extract to pdf
+- [ ] Create function to get summaries for the test data using an OpenAI API
+- [ ] Setup BaseClass
+- [ ] Setup pydantic config
+- [ ] Create SubClass for fixed contents
+- [ ] Create first easy prompt template to create podcast script
+- [ ] Integrate TTS-API of OpenAI
 
 
 ## Flow of the program
