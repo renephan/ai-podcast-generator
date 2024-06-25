@@ -1,5 +1,44 @@
 # ai-podcast-generator
 
+
+## Installation
+
+Requirements:
+- Python 3.11
+- Poetry (https://python-poetry.org/docs/)
+
+It is recommended to use a virtual environment:
+
+Linux/MacOS:
+```bash 
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Windows:
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+To install the project, run the following command:
+
+```bash
+poetry install
+```
+
+For development, we recommend to also install the pre-commit hooks by running the following command:
+
+```bash
+pre-commit install
+```
+
+Required environment variables:
+
+```bash
+export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
+```
+
 ## Next Steps for PoC
 - Setup BaseClass
 - Setup pydantic config
