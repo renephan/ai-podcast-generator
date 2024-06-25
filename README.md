@@ -39,6 +39,14 @@ Required environment variables:
 export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
 ```
 
+
+## Flow of the program
+1. Save raw information, including multi-media
+2. Create a summary for each new information (also incl. author, etc.), if word count >= 400 words
+3. Use summaries & previous episodes to create a new podcast episode using a prompt template
+4. Use TTS in order to create the *.mp3
+
+
 ## Next Steps for PoC
 - [x] Search very basic test data, e.g. paper, blog & extract to pdf
 - [ ] Create function to get summaries for the test data using an OpenAI API
@@ -47,13 +55,6 @@ export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
 - [ ] Create SubClass for fixed contents
 - [ ] Create first easy prompt template to create podcast script
 - [ ] Integrate TTS-API of OpenAI
-
-
-## Flow of the program
-1. Save raw information, including multi-media
-2. Create a summary for each new information (also incl. author, etc.), if word count >= 400 words
-3. Use summaries & previous episodes to create a new podcast episode using a prompt template
-4. Use TTS in order to create the *.mp3
 
 
 ## Requirements (sorted by priority)
@@ -66,3 +67,4 @@ export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
 - Sources, links & topics should be configurable based on the source
 - Config for API keys should be local
 - Later: Create a medium blog with sources for each podcast episode
+- Later: Configurable moderator, e.g. personality, tonality, "chatt-iness", etc.
