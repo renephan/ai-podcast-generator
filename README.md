@@ -24,3 +24,4 @@
 - Language should be configurable
 - Sources, links & topics should be configurable based on the source
 - Config for API keys should be local
+- Later: Create a medium blog with sources for each podcast episode
