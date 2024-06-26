@@ -1,5 +1,12 @@
 {
   "open_ai": {
     "llm": "gpt-3.5-turbo"
+  },
+  "data_sources": {
+    "rss": [
+      {
+        "feed_url": "http://machinelearningmastery.com/blog/feed/"
+      }
+    ]
   }
 }

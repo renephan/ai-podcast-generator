@@ -2,6 +2,14 @@ from pydantic_settings import BaseSettings
 import json
 
 
+class RSSSourceSettings(BaseSettings):
+    feed_url: str
+
+
+class DataSourceSettings(BaseSettings):
+    rss: list[RSSSourceSettings] | None = None
+
+
 class OpenAISettings(BaseSettings):
     api_key: str
     llm: str = "gpt-4o"
@@ -9,6 +17,7 @@ class OpenAISettings(BaseSettings):
 
 class Settings(BaseSettings):
     open_ai: OpenAISettings
+    data_sources: DataSourceSettings
 
     class Config:
         env_prefix = "AI_PODCAST_GENERATOR_"  # Prefix for environment variables
