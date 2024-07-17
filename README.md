@@ -68,3 +68,4 @@ export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
 - Config for API keys should be local
 - Later: Create a medium blog with sources for each podcast episode
 - Later: Configurable moderator, e.g. personality, tonality, "chatt-iness", etc.
+- Evaluate comments from various sources and extract different arguments & positions
