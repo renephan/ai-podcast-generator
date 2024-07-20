@@ -58,7 +58,7 @@ export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
 
 
 ## Requirements (sorted by priority)
-- Sources: RSS, Medium, Paper, Twitter, Reddit, YouTube, etc.
+- Possible Sources: RSS, Medium, Paper, Twitter, Reddit, YouTube, etc.
 - Create summaries for each information from each source, if word count >= 400 words
 - Prompt template to create a podcast script
 - Generate audio based on the script using a Text-to-speech (TTS) engine (start with OpenAI, not abstracted)
@@ -68,4 +68,5 @@ export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
 - Config for API keys should be local
 - Later: Create a medium blog with sources for each podcast episode
 - Later: Configurable moderator, e.g. personality, tonality, "chatt-iness", etc.
-- Evaluate comments from various sources and extract different arguments & positions
+- Idea: Evaluate comments from various sources and extract different arguments & positions to make it more personal/human-like
+- Idea: Create Podcast Artwork using Image Generation
