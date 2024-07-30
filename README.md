@@ -66,6 +66,7 @@ export AI_PODCAST_GENERATOR_OPEN_AI__API_KEY="your-api-key"
 - Language should be configurable
 - Sources, links & topics should be configurable based on the source
 - Config for API keys should be local
+- Never do citations (especially of people)
 - Later: Create a medium blog with sources for each podcast episode
 - Later: Configurable moderator, e.g. personality, tonality, "chatt-iness", etc.
 - Idea: Evaluate comments from various sources and extract different arguments & positions to make it more personal/human-like
